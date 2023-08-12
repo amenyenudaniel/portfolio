@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { SectionWrapper } from "../hoc";
 const Others = () => {
   return (
-    <div className="relative w-full h-screen mx-auto">
+    <div className="relative w-full h-screen mx-auto hero__bg">
       <div>
         <Link to="/">
           <BiArrowBack

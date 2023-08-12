@@ -41,8 +41,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
+  },
+  {
+    title: "Web Creator",
+    icon: creator,
   },
 
   {
@@ -251,7 +255,7 @@ const otherProjects = [
   {
     name: "Metaverse",
     description:
-      "My Metaverse website. Socialize seamlessly, and craft infinite virtual realms. Step into the future of interaction, where imagination knows no bounds. Join us and shape the Metaverse phenomenon today.",
+      "My Metaverse website. Socialize seamlessly, and craft infinite virtual realms. Step into the future of interaction, where imagination knows no bounds. Join us and shape the Metaverse phenomenon today with this Metaverse crafted website.",
     tags: [
       {
         name: "react js",
@@ -271,6 +275,24 @@ const otherProjects = [
     live_demo: "https://metaverse-git-master-amenyenudaniel.vercel.app/",
   },
   {
+    name: "Hoobank",
+    description:
+      "Where your financial aspirations come to life. With secure and user-friendly online banking and a commitment to your financial well-being, we're your partner on the path to prosperity. Join us in redefining banking convenience and excellence.",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Hoobank,
+    source_code_link: "https://github.com/amenyenudaniel/Project-Hoobank",
+    live_demo: "https://hoobank-web-navy.vercel.app/",
+  },
+  {
     name: "Crypto Bitcoin",
     description:
       "Navigate the world of cryptocurrency effortlessly with my Bitcoin app. Seamlessly track prices, manage your portfolio, and stay updated on market trends. Built with user-centric design and advanced coding, it offers a secure and streamlined experience.",
@@ -288,25 +310,6 @@ const otherProjects = [
     image: Bicoin,
     source_code_link: "https://github.com/amenyenudaniel/Crypto",
     live_demo: "https://crypto-web-xi.vercel.app/",
-  },
-
-  {
-    name: "Hoobank",
-    description:
-      "Where your financial aspirations come to life. With secure and user-friendly online banking and a commitment to your financial well-being, we're your partner on the path to prosperity. Join us in redefining banking convenience and excellence.",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Hoobank,
-    source_code_link: "https://github.com/amenyenudaniel/Project-Hoobank",
-    live_demo: "https://hoobank-web-navy.vercel.app/",
   },
 
   {
