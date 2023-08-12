@@ -10,6 +10,7 @@ import {
   git,
   figma,
   threejs,
+  Youtube,
 } from "../assets";
 import {
   Carent,
@@ -146,6 +147,25 @@ const projects = [
     source_code_link: "https://github.com/amenyenudaniel/Carent",
     live_demo: "https://carhub-git-master-amenyenudaniel.vercel.app/",
   },
+
+  {
+    name: "Youtube Clone",
+    description:
+      "Presenting my YouTube clone: a React and Material-UI marvel. I recreated YouTube's essence—responsive design, video playback, and interactive elements—showcasing my UI/UX and front-end skills effectively. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "green-text-gradient",
+      },
+    ],
+    image: Youtube,
+    source_code_link: "https://github.com/amenyenudaniel/Youtube-Clone",
+    live_demo: "https://youtube-clone-orpin-six.vercel.app/",
+  },
   {
     name: "Gericht Restaurant",
     description:
@@ -208,6 +228,27 @@ const projects = [
   },
 
   {
+    name: "Apple Clone",
+    description:
+      "Discover the magic of Apple with my website clone that pays homage to its legendary design and innovation. Immerse yourself in the familiar elegance and functionality, carefully reconstructed using React JS library",
+    tags: [
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AppleClone,
+    source_code_link: "https://github.com/amenyenudaniel/Apple-Clone",
+    live_demo: "https://apple-clone-web.vercel.app/",
+  },
+];
+
+const otherProjects = [
+  {
     name: "Metaverse",
     description:
       "My Metaverse website. Socialize seamlessly, and craft infinite virtual realms. Step into the future of interaction, where imagination knows no bounds. Join us and shape the Metaverse phenomenon today.",
@@ -229,27 +270,6 @@ const projects = [
     source_code_link: "https://github.com/amenyenudaniel/MetaVerse",
     live_demo: "https://metaverse-git-master-amenyenudaniel.vercel.app/",
   },
-  {
-    name: "Apple Clone",
-    description:
-      "Discover the magic of Apple with my website clone that pays homage to its legendary design and innovation. Immerse yourself in the familiar elegance and functionality, carefully reconstructed using React JS library",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: AppleClone,
-    source_code_link: "https://github.com/amenyenudaniel/Apple-Clone",
-    live_demo: "https://apple-clone-web.vercel.app/",
-  },
-];
-
-const otherProjects = [
   {
     name: "Crypto Bitcoin",
     description:

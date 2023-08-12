@@ -31,6 +31,7 @@ import CertFile from "./pdf-cert.pdf";
 import OtherPP from "./other-projects.jpg";
 import Me from "./me.jpg";
 import portfolio_img from "./portfolio-img.png";
+import Youtube from "./youtube.png";
 export {
   logo,
   backend,
@@ -62,4 +63,5 @@ export {
   OtherPP,
   Me,
   portfolio_img,
+  Youtube,
 };
