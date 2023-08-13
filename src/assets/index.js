@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 import Cert from "./cert.png";
 import CertFile from "./pdf-cert.pdf";
+import Resume from "./resume.pdf";
 import OtherPP from "./other-projects.jpg";
 import Me from "./me.jpg";
 import portfolio_img from "./portfolio-img.png";
@@ -64,4 +65,5 @@ export {
   Me,
   portfolio_img,
   Youtube,
+  Resume,
 };
