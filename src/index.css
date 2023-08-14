@@ -234,9 +234,6 @@
 .mypic {
   width: 400px;
   height: 400px;
-  position: absolute;
-  top: 50%;
-  left: 30%;
   border-radius: 100%;
 }
 .tech__mobile {
@@ -249,19 +246,31 @@
   display: none;
 }
 
-@media screen and (max-width: 900px) {
-  .scroller {
-    top: 100%;
-  }
+.hero__section {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10%;
 }
+.margin__b {
+  margin-top: 10%;
+}
+
 @media screen and (max-width: 700px) {
   .mypic {
     width: 400px;
     height: 400px;
-    left: 0;
-    top: 30%;
+
     padding: 2rem;
     border-radius: 100%;
+  }
+  .hero__section {
+    margin-top: 5%;
+    justify-content: center;
+  }
+  .margin__b {
+    margin-top: 5%;
   }
   .card__desktop {
     display: none;
@@ -287,23 +296,19 @@
   .mypic {
     width: 400px;
     height: 400px;
-    left: 0;
-    top: 45%;
     padding: 2rem;
     border-radius: 100%;
+  }
+  .picture {
+    margin-left: -3rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .mypic {
-    width: 300px;
-    height: 300px;
-    left: 0;
-    top: 40%;
+    width: 100%;
+    height: 100%;
     padding: 2rem;
     border-radius: 100%;
-  }
-  .scroller {
-    top: 90%;
   }
 }

@@ -6,7 +6,6 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Resume } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -54,11 +53,6 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
       </motion.p>
-      <a href={Resume} download>
-        <button type="button" className="cert__btn">
-          Download CV
-        </button>
-      </a>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
