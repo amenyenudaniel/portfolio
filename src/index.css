@@ -239,7 +239,21 @@
   left: 30%;
   border-radius: 100%;
 }
+.tech__mobile {
+  display: none;
+}
+.project__mobile {
+  display: none;
+}
+.card__mobile {
+  display: none;
+}
 
+@media screen and (max-width: 900px) {
+  .scroller {
+    top: 100%;
+  }
+}
 @media screen and (max-width: 700px) {
   .mypic {
     width: 400px;
@@ -248,5 +262,38 @@
     top: 30%;
     padding: 2rem;
     border-radius: 100%;
+  }
+  .card__desktop {
+    display: none;
+  }
+  .card__mobile {
+    display: block;
+  }
+  .tech__desktop {
+    display: none;
+  }
+  .project__desktop {
+    display: none;
+  }
+  .project__mobile {
+    display: block;
+  }
+
+  .tech__mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mypic {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 40%;
+    padding: 2rem;
+    border-radius: 100%;
+  }
+  .scroller {
+    top: 90%;
   }
 }

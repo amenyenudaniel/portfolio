@@ -230,28 +230,6 @@ const projects = [
     source_code_link: "https://github.com/amenyenudaniel/MKBHD-clone",
     live_demo: "https://mkbhd-clone-web.vercel.app/",
   },
-
-  {
-    name: "Apple Clone",
-    description:
-      "Discover the magic of Apple with my website clone that pays homage to its legendary design and innovation. Immerse yourself in the familiar elegance and functionality, carefully reconstructed using React JS library",
-    tags: [
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: AppleClone,
-    source_code_link: "https://github.com/amenyenudaniel/Apple-Clone",
-    live_demo: "https://apple-clone-web.vercel.app/",
-  },
-];
-
-const otherProjects = [
   {
     name: "Metaverse",
     description:
@@ -274,6 +252,9 @@ const otherProjects = [
     source_code_link: "https://github.com/amenyenudaniel/MetaVerse",
     live_demo: "https://metaverse-git-master-amenyenudaniel.vercel.app/",
   },
+];
+
+const otherProjects = [
   {
     name: "Hoobank",
     description:
