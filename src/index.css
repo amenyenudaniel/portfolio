@@ -283,6 +283,16 @@
     display: flex;
   }
 }
+@media screen and (max-width: 500px) {
+  .mypic {
+    width: 400px;
+    height: 400px;
+    left: 0;
+    top: 45%;
+    padding: 2rem;
+    border-radius: 100%;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .mypic {
