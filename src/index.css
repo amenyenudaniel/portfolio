@@ -265,6 +265,9 @@
     padding: 2rem;
     border-radius: 100%;
   }
+  .scroller {
+    display: none;
+  }
   .hero__section {
     margin-top: 5%;
     justify-content: center;
@@ -294,7 +297,7 @@
 }
 @media screen and (max-width: 500px) {
   .mypic {
-    width: 400px;
+    width: 500px;
     height: 400px;
     padding: 2rem;
     border-radius: 100%;
