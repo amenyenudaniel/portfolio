@@ -18,7 +18,6 @@ import {
   MKBHD,
   Nike,
   Hoobank,
-  AppleClone,
   Bicoin,
   Google,
   Metaverse,
@@ -168,7 +167,7 @@ const projects = [
     ],
     image: Youtube,
     source_code_link: "https://github.com/amenyenudaniel/Youtube-Clone",
-    live_demo: "https://youtube-clone-orpin-six.vercel.app/",
+    live_demo: "https://youtube-clone-website.vercel.app/",
   },
   {
     name: "Gericht Restaurant",
@@ -185,6 +184,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+
     image: Resturant,
     source_code_link: "https://github.com/amenyenudaniel/Restaurant-Website",
     live_demo: "https://restaurant-website-livid.vercel.app/",
