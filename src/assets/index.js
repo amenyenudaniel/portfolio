@@ -28,11 +28,12 @@ import tesla from "./company/tesla.png";
 
 import Cert from "./cert.png";
 import CertFile from "./pdf-cert.pdf";
-import Resume from "./resumeP.pdf";
+import Resume from "./resume.pdf";
 import OtherPP from "./other-projects.jpg";
 import Me from "./me.png";
 import portfolio_img from "./portfolio-img.png";
 import Youtube from "./youtube.png";
+import HNGLOGO from "./HNGLOGO.jpeg";
 export {
   logo,
   backend,
@@ -66,4 +67,5 @@ export {
   portfolio_img,
   Youtube,
   Resume,
+  HNGLOGO,
 };

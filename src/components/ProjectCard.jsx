@@ -47,12 +47,10 @@ const ProjectCard = ({
               </div>
             </div>
           </div>
-
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
-
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
               <p
@@ -63,12 +61,15 @@ const ProjectCard = ({
               </p>
             ))}
           </div>
-          <a href={live_demo} target="_blank">
-            <button type="button" className="text-[15px] view__btn">
-              {" "}
-              View Website
-            </button>
-          </a>
+
+          <button
+            type="button"
+            className="text-[15px] cursor-pointer view__btn"
+          >
+            <a href={live_demo} target="_blank">
+              View Website{" "}
+            </a>
+          </button>
         </Tilt>
       </motion.div>
 
